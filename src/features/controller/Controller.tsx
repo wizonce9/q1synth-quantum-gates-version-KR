@@ -143,7 +143,7 @@ export function Controller() {
                 {mode !== 'presentation' 
                 && <Button 
                     name="회전하다" 
-                    activeName="정지"
+                    activeName="정지하다"
                     onClick={togglePlay}
                     isActive={isPlaying}
                     disabled={disabled}
